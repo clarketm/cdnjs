@@ -20,9 +20,6 @@
     "jquery-plugin",
     "ecosystem:jquery"
   ],
-  "scripts": {
-    "test": "gulp"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/clarketm/TableExport"
@@ -46,13 +43,6 @@
   },
   "license": "MIT",
   "homepage": "http://www.clarketravis.com",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/clarketm/TableExport.git",
@@ -60,5 +50,5 @@
     "files": [
       "**/*"
     ]
-  },
+  }
 }
